@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Homeday;
+  src: url(/Assets/fonts/Homeday/Homeday.ttf);
+}
+
+h1{
+  font-family: Homeday;
+  color: #D9ADD6;
+}
+h2{
+  font-size: 1.5rem;
+}
+
+header{
+  height: 600px;
+  background-image: url("/Assets/img/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.news-letter{
+  height: 400px;
+  background-color: #D9D9D9;
+}
+.text-news-letter{
+  font-size: 2rem;
+}
+footer{
+  height: 350px;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.carousel-inner img{
+  height: 400px;
+}
+p{
+  font-size: 1.3rem;
+}
+.svg{
+  width: 45px;
+  height: 45px;
+  transition: 0.4s;
+}
+.svg:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
