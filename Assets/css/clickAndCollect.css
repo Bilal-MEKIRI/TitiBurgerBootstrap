@@ -61,3 +61,8 @@ p{
   cursor: pointer;
   transform: scale(1.1);
 }
+.menu{
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+}
